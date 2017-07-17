@@ -1,0 +1,18 @@
+ <launch>
+ 
+  <node name="setGOAL" pkg="set_amclgoal" type="setGOAL">
+
+
+    <param name="GOAL_Point_x" type="double" value= "-2.302"/>
+    <param name="GOAL_Point_y" type="double" value= "-2.259"/>
+    <param name="GOAL_Point_z" type="double" value= "0.0"/>
+    <param name="GOAL_orientation_x" type="double" value= "0.0"/>
+    <param name="GOAL_orientation_y" type="double" value= "0.0"/>
+    <param name="GOAL_orientation_z" type="double" value= "-0.785"/>
+    <param name="GOAL_orientation_w" type="double" value= "0.626"/>
+
+
+  </node>
+
+
+  </launch>

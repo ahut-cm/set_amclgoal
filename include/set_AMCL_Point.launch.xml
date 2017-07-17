@@ -1,0 +1,13 @@
+ <launch>
+ 
+  <node name="setAMCL" pkg="set_amclgoal" type="setAMCL">
+    <param name="AMCL_Point_x" type="double" value= "-2.302"/>
+    <param name="AMCL_Point_y" type="double" value= "-2.259"/>
+    <param name="AMCL_Point_z" type="double" value= "0.0"/>
+    <param name="AMCL_orientation_x" type="double" value= "0.0"/>
+    <param name="AMCL_orientation_y" type="double" value= "0.0"/>
+    <param name="AMCL_orientation_z" type="double" value= "-0.785"/>
+    <param name="AMCL_orientation_w" type="double" value= "0.626"/>
+  </node>
+  
+  </launch>
